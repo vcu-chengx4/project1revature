@@ -1,0 +1,19 @@
+2022-06-07_09:46:08.452 [http-nio-8085-exec-1] INFO  c.e.r.p.controller.UserController - 1 successfully logged in
+2022-06-07_09:46:50.282 [http-nio-8085-exec-3] INFO  c.e.r.p.controller.UserController - displaying user id: 29 details
+2022-06-07_09:47:03.527 [http-nio-8085-exec-4] INFO  c.e.r.p.controller.ItemController - displaying all items
+2022-06-07_09:48:58.895 [http-nio-8085-exec-2] INFO  c.e.r.p.controller.ItemController - displaying all items
+2022-06-07_09:49:01.520 [http-nio-8085-exec-3] INFO  c.e.r.p.controller.ItemController - Displaying details on item: 1
+2022-06-07_09:49:16.546 [http-nio-8085-exec-4] INFO  c.e.r.p.controller.ItemController - Displaying details on item: 4
+2022-06-07_09:49:18.285 [http-nio-8085-exec-5] INFO  c.e.r.p.controller.ItemController - Displaying details on item: 5
+2022-06-07_09:51:34.017 [http-nio-8085-exec-9] INFO  c.e.r.p.controller.ItemController - Item details successfully saved
+2022-06-07_09:51:55.314 [http-nio-8085-exec-10] INFO  c.e.r.p.controller.ItemController - Item details successfully saved
+2022-06-07_09:52:16.283 [http-nio-8085-exec-1] WARN  c.e.r.p.controller.UserController - user logging out despite already being logged out
+2022-06-07_09:54:09.674 [http-nio-8085-exec-4] INFO  c.e.r.p.services.UserServicesImpl - login method successfully fired
+2022-06-07_09:54:09.675 [http-nio-8085-exec-4] INFO  c.e.r.p.services.UserServicesImpl - login method successfully fired
+2022-06-07_09:54:09.675 [http-nio-8085-exec-4] INFO  c.e.r.p.services.UserServicesImpl - login method successfully fired
+2022-06-07_09:54:09.676 [http-nio-8085-exec-4] INFO  c.e.r.p.services.UserServicesImpl - login method successfully fired
+2022-06-07_09:54:09.676 [http-nio-8085-exec-4] INFO  c.e.r.p.controller.UserController - 1 successfully logged in
+2022-06-07_09:54:09.676 [http-nio-8085-exec-4] INFO  c.e.r.p.services.UserServicesImpl - login method successfully fired
+2022-06-07_09:55:24.822 [http-nio-8085-exec-7] INFO  c.e.r.p.services.UserServicesImpl - login method successfully fired
+2022-06-07_09:55:24.823 [http-nio-8085-exec-7] INFO  c.e.r.p.services.UserServicesImpl - login method successfully fired
+2022-06-07_09:55:24.823 [http-nio-8085-exec-7] WARN  c.e.r.p.controller.UserController - User already logged in
