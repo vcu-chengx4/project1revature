@@ -10,6 +10,7 @@ import com.example.revature.project1.model.*;
 import com.example.revature.project1.services.CartServices;
 import com.example.revature.project1.services.ItemServices;
 import com.example.revature.project1.services.UserServices;
+import io.micrometer.core.annotation.Timed;
 import jdk.nashorn.internal.ir.ObjectNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -139,6 +140,7 @@ public class UserController {
         return responseEntity;
     }
     @PostMapping("/addToCart/")
+    @Timed(value = "adding_to_cart.time", description = "Time it takes to load an item to a cart")
     public ResponseEntity<String> addtocart(@RequestBody Cart cart) {
         ResponseEntity responseEntity = null;
         HttpSession session = request.getSession();
