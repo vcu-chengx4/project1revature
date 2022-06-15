@@ -65,6 +65,7 @@ public class UserController {
     }
 
     @GetMapping //localhost:8085/user
+    @Timed(value = "show_users.time", description = "Time it takes to load all users")
     public ResponseEntity<List<User>> getUsers() {
         ResponseEntity responseEntity = null;
         List<User> users = new ArrayList<User>();
@@ -80,6 +81,7 @@ public class UserController {
         return new ResponseEntity<User>(UserofId, HttpStatus.OK);
     }
     @PostMapping("/register") //localhost:8085/user/register
+    @Timed(value = "show_register.time", description = "Time it takes to register a user")
     public ResponseEntity<String> register(@RequestBody User user){
         ResponseEntity responseEntity = null;
         if(userServices.isUserExists(user.getUserId())) {
@@ -184,6 +186,7 @@ public class UserController {
     }
 
     @GetMapping("/cart")
+    @Timed(value = "show_cart.time", description = "Time it takes to load a user's cart")
     public ResponseEntity<List<Item>> carted() {
         ResponseEntity responseEntity = null;
         HttpSession session = request.getSession();
