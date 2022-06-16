@@ -1,0 +1,12 @@
+route:
+  receiver: admin
+
+receivers:
+- name: admin
+  email_configs:
+  - to: 'm.m.bassiouni@gmail.com'
+    from: 'mbassiouni001@gmail.com'
+    smarthost: smtp.gmail.com:587
+    auth_username: 'mbassiouni001@gmail.com'
+    auth_identity: 'mbassiouni001@gmail.com'
+    auth_password: 'nozhmggssbhywvoy'
